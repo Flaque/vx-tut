@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vx/axis": "0.0.108",
+    "@vx/gradient": "0.0.109",
+    "@vx/grid": "0.0.108",
+    "@vx/group": "0.0.84",
+    "@vx/mock-data": "0.0.95",
+    "@vx/pattern": "0.0.84",
+    "@vx/responsive": "0.0.103",
+    "@vx/scale": "0.0.92",
+    "@vx/shape": "0.0.108",
+    "@vx/text": "0.0.84",
+    "d3-array": "^1.2.0",
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "scale": "0.0.7",
+    "vx": "^0.0.1"
+  }
+}
