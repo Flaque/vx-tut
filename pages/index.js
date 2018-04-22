@@ -1,3 +1,4 @@
+import React from 'react';
 import { appleStock } from '@vx/mock-data';
 import { Group } from '@vx/group';
 import { scaleTime, scaleLinear } from '@vx/scale';
