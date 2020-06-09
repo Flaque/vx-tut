@@ -47,10 +47,9 @@ export default () => (
 
         <AreaClosed
           data={data}
-          xScale={xScale}
           yScale={yScale}
-          x={x}
-          y={y}
+          x={d => xScale(x(d))}
+          y={d => yScale(y(d))}
           fill={"url(#gradient)"}
           stroke={""}
         />
